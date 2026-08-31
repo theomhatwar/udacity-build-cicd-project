@@ -1,0 +1,19 @@
+# AWS credentials - NEVER commit these
+.aws/
+
+# Terraform state and lock files (can contain sensitive values)
+setup/terraform/.terraform/
+setup/terraform/terraform.tfstate
+setup/terraform/terraform.tfstate.backup
+setup/terraform/.terraform.lock.hcl
+
+# Node
+starter/frontend/node_modules/
+
+# Python
+starter/backend/.venv/
+__pycache__/
+
+# Editor
+.vscode/
+.DS_Store
