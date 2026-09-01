@@ -17,3 +17,5 @@ __pycache__/
 # Editor
 .vscode/
 .DS_Storeaws_creds.sh
+setup/terraform/terraform.tfstate
+setup/terraform/terraform.tfstate.backup
